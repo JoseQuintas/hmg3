@@ -29,7 +29,7 @@
                             [ ROWOFFSET <nrowoffset> ];
                             [ COLOFFSET <ncoloffset> ];
              =>;
-             _DefineComboSearchBox( <"name">, <"parent">, <col>, <row>, <width>, <height>, <value>, ;
+             _DefineComboSearchBox( <"name">, <(parent)>, <col>, <row>, <width>, <height>, <value>, ;
                 <fontname>, <fontsize>, <tooltip>, <maxlenght>, ;
                             <.upper.>, <.lower.>, <.numeric.>, ;
                 <{lostfocus}>, <{gotfocus}>, <{enter}>, ;
@@ -50,9 +50,9 @@
 	#xcommand COLOFFSET	<coloffset>	;
 	=>;
 	_HMG_SYSDATA \[ 450 \]		:= <coloffset>
-                
-                
-                               
+
+
+
     #xcommand DEFINE COMBOSEARCHBOX <name>;
        =>;
        _HMG_SYSDATA \[ 416 \]   := <"name">   ;; //name
@@ -86,7 +86,7 @@
        _HMG_SYSDATA \[ 439 \]      := .f.  ;;  // additive
        _HMG_SYSDATA \[ 449 \]      := 0    ;;// rowoffset
        _HMG_SYSDATA \[ 450 \]      := 0    // coloffset
-         
+
     #xcommand END COMBOSEARCHBOX;
        =>;
           _DefineComboSearchBox(;
@@ -121,7 +121,7 @@
              _HMG_SYSDATA \[ 439 \] ,; //  additive
              _HMG_SYSDATA \[ 449 \] ,; //  rowoffset
              _HMG_SYSDATA \[ 450 \] ; //  coloffset
-             ) 
-       
-                   
-               
+             )
+
+
+
