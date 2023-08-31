@@ -78,7 +78,7 @@
 		[ <notabstop: NOTABSTOP> ] ;
 		[ FORMAT <cDateFormat> ] ;
 	=> ;
-	_DefineDatePick ( <"name"> , ;
+	_DefineDatePick ( <(name)> , ;
                      <(parent)> , ;
                      <col> , ;
                      <row> , ;

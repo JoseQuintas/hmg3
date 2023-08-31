@@ -78,7 +78,7 @@
 		[ <notabstop: NOTABSTOP> ] ;
 		[ ON ENTER <OnEnter> ] ;
 	=>;
-	_DefineCheckBox ( <"name">, <(parent)>, <col>, <row>, <caption>, <value> ,<f> ,<n> , <tooltip>  , <{change}>  , [<w>] , [<h>] , <{lostfocus}>, <{gotfocus}>  , <helpid>, <.invisible.>, <.notabstop.> ,<.bold.>, <.italic.>, <.underline.>, <.strikeout.> , <"field"> , <backcolor> , <fontcolor> , <.transparent.>, <{OnEnter}> )
+	_DefineCheckBox ( <(name)>, <(parent)>, <col>, <row>, <caption>, <value> ,<f> ,<n> , <tooltip>  , <{change}>  , [<w>] , [<h>] , <{lostfocus}>, <{gotfocus}>  , <helpid>, <.invisible.>, <.notabstop.> ,<.bold.>, <.italic.>, <.underline.>, <.strikeout.> , <"field"> , <backcolor> , <fontcolor> , <.transparent.>, <{OnEnter}> )
 
 #xcommand @ <row>,<col> CHECKBUTTON <name> ;
 		[ <dummy1: OF, PARENT> <parent> ] ;
@@ -101,7 +101,7 @@
 		[ <notabstop: NOTABSTOP> ] ;
 		[ ON ENTER <OnEnter> ] ;
 	=>;
-	_DefineCheckButton ( <"name">, <(parent)>, <col>, <row>, <caption>, <value> ,<f> ,<n> , <tooltip>  , <{change}>  , [<w>] , [<h>] , <{lostfocus}>, <{gotfocus}>  , <helpid>, <.invisible.>, <.notabstop.> ,<.bold.>, <.italic.>, <.underline.>, <.strikeout.>, <{OnEnter}> )
+	_DefineCheckButton ( <(name)>, <(parent)>, <col>, <row>, <caption>, <value> ,<f> ,<n> , <tooltip>  , <{change}>  , [<w>] , [<h>] , <{lostfocus}>, <{gotfocus}>  , <helpid>, <.invisible.>, <.notabstop.> ,<.bold.>, <.italic.>, <.underline.>, <.strikeout.>, <{OnEnter}> )
 
 #xcommand @ <row>,<col> CHECKBUTTON <name> ;
 		[ <dummy1: OF, PARENT> <parent> ] ;
@@ -119,7 +119,7 @@
       [ <notrans: NOTRANSPARENT>];
       [ ON ENTER <OnEnter> ] ;
 	=>;
-	_DefineImageCheckButton ( <"name">, <(parent)>, <col>, <row>, <bitmap>,;
+	_DefineImageCheckButton ( <(name)>, <(parent)>, <col>, <row>, <bitmap>,;
                              <value> ,"" ,0 , <tooltip>  , <{change}>,;
                              [<w>] , [<h>] , <{lostfocus}>, <{gotfocus}> , <helpid>,;
                              <.invisible.>, <.notabstop.>, <.notrans.>, <{OnEnter}> )

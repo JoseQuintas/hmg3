@@ -550,7 +550,7 @@
     _ActivateWindow ( \{<(name)>\} )
 
 
-#xcommand ACTIVATE WINDOW DEBUGGER <name, ...>   =>   _ActivateWindow ( \{<"name">\}, .F. , .T. )
+#xcommand ACTIVATE WINDOW DEBUGGER <name, ...>   =>   _ActivateWindow ( \{<(name)>\}, .F. , .T. )
 
 
 #xcommand ACTIVATE WINDOW ALL ;
@@ -563,7 +563,7 @@
 
  #xcommand CENTER WINDOW <name> DESKTOP;
 	=>;
-	DoMethod ( <"name"> , 'CenterDesktop' )
+	DoMethod ( <(name)> , 'CenterDesktop' )
 
 #xcommand CENTER WINDOW <name> IN <name2>;
 	=>;

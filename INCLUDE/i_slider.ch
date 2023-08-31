@@ -71,7 +71,7 @@
 		[ <invisible : INVISIBLE> ] ;
 		[ <notabstop : NOTABSTOP> ] ;
 	=>;
-	_DefineSlider ( <"name">, ;
+	_DefineSlider ( <(name)>, ;
                    <(parent)>, ;
                    <col>, ;
                    <row>, ;

@@ -81,7 +81,7 @@
       [ ON LINK <onlink> ] ;
       [ ON VSCROLL  <OnVScroll> ] ;
 	=>;
-	_DefineRichEditBox ( <"name">, <(parent)>, <col>, <row>, <w>, <h>, <value> ,<f>,<s> , <tooltip>  , <maxlength>  , <{gotfocus}>  , <{change}>  , <{lostfocus}>  , <.readonly.> , .f. , <helpid>, <.invisible.>, <.notabstop.> ,<.bold.>, <.italic.>, <.underline.>, <.strikeout.> , <"field"> , <backcolor> , <.noHscroll.> , <.noVscroll.> , <{selectchange}> , <{onlink}> , <{OnVScroll}> )
+	_DefineRichEditBox ( <(name)>, <(parent)>, <col>, <row>, <w>, <h>, <value> ,<f>,<s> , <tooltip>  , <maxlength>  , <{gotfocus}>  , <{change}>  , <{lostfocus}>  , <.readonly.> , .f. , <helpid>, <.invisible.>, <.notabstop.> ,<.bold.>, <.italic.>, <.underline.>, <.strikeout.> , <"field"> , <backcolor> , <.noHscroll.> , <.noVscroll.> , <{selectchange}> , <{onlink}> , <{OnVScroll}> )
 
 //SPLITBOX VERSION
 
@@ -114,7 +114,7 @@
       [ ON LINK <onlink> ] ;
       [ ON VSCROLL  <OnVScroll> ] ;
       =>;
-	_DefineRichEditBox ( <"name">, <(parent)>, , , <w>, <h>, <value> ,<f>,<s> , <tooltip>  , <maxlength>  , <{gotfocus}>  , <{change}>  , <{lostfocus}>  , <.readonly.> , <.break.>  , <helpid>, <.invisible.>, <.notabstop.> ,<.bold.>, <.italic.>, <.underline.>, <.strikeout.> , <"field">  , <backcolor>  , <.noHscroll.> , <.noVscroll.> , <{selectchange}> , <{onlink}> , <{OnVScroll}>  )
+	_DefineRichEditBox ( <(name)>, <(parent)>, , , <w>, <h>, <value> ,<f>,<s> , <tooltip>  , <maxlength>  , <{gotfocus}>  , <{change}>  , <{lostfocus}>  , <.readonly.> , <.break.>  , <helpid>, <.invisible.>, <.notabstop.> ,<.bold.>, <.italic.>, <.underline.>, <.strikeout.> , <"field">  , <backcolor>  , <.noHscroll.> , <.noVscroll.> , <{selectchange}> , <{onlink}> , <{OnVScroll}>  )
 
 
 

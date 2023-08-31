@@ -84,7 +84,7 @@
    [ DYNAMICFORECOLOR <DynamicForeColor> ] ;
    [ DYNAMICFONT <DynamicFont> ] ;
 =>;
-_DefineTree ( <"name"> , <(parent)> , <row> , <col> , <width> , <height> , <{change}> , <tooltip> , <fontname> , <fontsize> , <{gotfocus}> , <{lostfocus}> , <{dblclick}> , .f. , <value>  , <helpid>, <aImgNode>, <aImgItem>, <.noBut.> ,<.bold.>, <.italic.>, <.underline.>, <.strikeout.> , <.itemids.> , Nil , <.NoTrans.> , <{OnExpand}> , <{OnCollapse}> , <aBackColor> , <aFontColor> , <DynamicBackColor> , <DynamicForeColor> , <DynamicFont> )
+_DefineTree ( <(name)> , <(parent)> , <row> , <col> , <width> , <height> , <{change}> , <tooltip> , <fontname> , <fontsize> , <{gotfocus}> , <{lostfocus}> , <{dblclick}> , .f. , <value>  , <helpid>, <aImgNode>, <aImgItem>, <.noBut.> ,<.bold.>, <.italic.>, <.underline.>, <.strikeout.> , <.itemids.> , Nil , <.NoTrans.> , <{OnExpand}> , <{OnCollapse}> , <aBackColor> , <aFontColor> , <DynamicBackColor> , <DynamicForeColor> , <DynamicFont> )
 
 
 * Alternate Syntax
@@ -121,7 +121,7 @@ _DefineTree ( <"name"> , <(parent)> , <row> , <col> , <width> , <height> , <{cha
    [ DYNAMICFORECOLOR <DynamicForeColor> ] ;
    [ DYNAMICFONT <DynamicFont> ] ;
 =>;
-_DefineTree ( <"name"> , <(parent)> , <row> , <col> , <width> , <height> , <{change}> , <tooltip> , <fontname> , <fontsize> , <{gotfocus}> , <{lostfocus}> , <{dblclick}> , .f. , <value>  , <helpid>, <aImgNode>, <aImgItem>, .f. ,<.bold.>, <.italic.>, <.underline.>, <.strikeout.> , <.itemids.> , <rootbutton> , <.Trans.> , <{OnExpand}> , <{OnCollapse}> , <aBackColor> , <aFontColor> , <DynamicBackColor> , <DynamicForeColor> , <DynamicFont> )
+_DefineTree ( <(name)> , <(parent)> , <row> , <col> , <width> , <height> , <{change}> , <tooltip> , <fontname> , <fontsize> , <{gotfocus}> , <{lostfocus}> , <{dblclick}> , .f. , <value>  , <helpid>, <aImgNode>, <aImgItem>, .f. ,<.bold.>, <.italic.>, <.underline.>, <.strikeout.> , <.itemids.> , <rootbutton> , <.Trans.> , <{OnExpand}> , <{OnCollapse}> , <aBackColor> , <aFontColor> , <DynamicBackColor> , <DynamicForeColor> , <DynamicFont> )
 
 
 #xcommand NODE <text> [ IMAGES <aImage> ] [ ID <id> ];
@@ -179,7 +179,7 @@ _EndTree()
    [ DYNAMICFORECOLOR <DynamicForeColor> ] ;
    [ DYNAMICFONT <DynamicFont> ] ;
 =>;
-_DefineTree ( <"name"> , <(parent)> ,  ,  , <width> , <height> , <{change}> , <tooltip> , <fontname> , <fontsize> , <{gotfocus}> , <{lostfocus}> , <{dblclick}> , <.break.> , <value>  , <helpid>, <aImgNode>, <aImgItem>, <.noBut.> ,<.bold.>, <.italic.>, <.underline.>, <.strikeout.>  , <.itemids.> , Nil , <.NoTrans.> , <{OnExpand}> , <{OnCollapse}> , <aBackColor> , <aFontColor> , <DynamicBackColor> , <DynamicForeColor> , <DynamicFont> )
+_DefineTree ( <(name)> , <(parent)> ,  ,  , <width> , <height> , <{change}> , <tooltip> , <fontname> , <fontsize> , <{gotfocus}> , <{lostfocus}> , <{dblclick}> , <.break.> , <value>  , <helpid>, <aImgNode>, <aImgItem>, <.noBut.> ,<.bold.>, <.italic.>, <.underline.>, <.strikeout.>  , <.itemids.> , Nil , <.NoTrans.> , <{OnExpand}> , <{OnCollapse}> , <aBackColor> , <aFontColor> , <DynamicBackColor> , <DynamicForeColor> , <DynamicFont> )
 
 
 * Extended
@@ -215,7 +215,7 @@ _DefineTree ( <"name"> , <(parent)> ,  ,  , <width> , <height> , <{change}> , <t
    [ DYNAMICFORECOLOR <DynamicForeColor> ] ;
    [ DYNAMICFONT <DynamicFont> ] ;
 =>;
-_DefineTree ( <"name"> , <(parent)> ,  ,  , <width> , <height> , <{change}> , <tooltip> , <fontname> , <fontsize> , <{gotfocus}> , <{lostfocus}> , <{dblclick}> , <.break.> , <value>  , <helpid>, <aImgNode>, <aImgItem>, .f. ,<.bold.>, <.italic.>, <.underline.>, <.strikeout.>  , <.itemids.> , <rootbutton> , <.Trans.> , <{OnExpand}> , <{OnCollapse}> , <aBackColor> , <aFontColor> , <DynamicBackColor> , <DynamicForeColor> , <DynamicFont>  )
+_DefineTree ( <(name)> , <(parent)> ,  ,  , <width> , <height> , <{change}> , <tooltip> , <fontname> , <fontsize> , <{gotfocus}> , <{lostfocus}> , <{dblclick}> , <.break.> , <value>  , <helpid>, <aImgNode>, <aImgItem>, .f. ,<.bold.>, <.italic.>, <.underline.>, <.strikeout.>  , <.itemids.> , <rootbutton> , <.Trans.> , <{OnExpand}> , <{OnCollapse}> , <aBackColor> , <aFontColor> , <DynamicBackColor> , <DynamicForeColor> , <DynamicFont>  )
 
 
 

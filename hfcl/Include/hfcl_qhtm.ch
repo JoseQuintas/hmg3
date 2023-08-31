@@ -16,7 +16,7 @@
       [ <underline : UNDERLINE> ] ;
       [ <strikeout : STRIKEOUT> ] ;
 =>;
-      _DefineQhtm ( <"name">, ;
+      _DefineQhtm ( <(name)>, ;
                    <(parent)>, ;
                    <row>, ;
                    <col>, ;

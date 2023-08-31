@@ -74,7 +74,7 @@
 		[ <invisible: INVISIBLE> ] ;
 		[ <multiline: MULTILINE> ] ;
 	=>;
-	_DefineButton ( <"name">, <(parent)>, <col>, <row>, <caption>, <{action}>, ;
+	_DefineButton ( <(name)>, <(parent)>, <col>, <row>, <caption>, <{action}>, ;
                    <w>, <h>, <font>, <size>, <tooltip>, <{gotfocus}>, ;
                    <{lostfocus}>, <.flat.>, <.notabstop.>, <helpid>, ;
                    <.invisible.> ,<.bold.>, <.italic.>, <.underline.>, <.strikeout.> , <.multiline.> )
@@ -94,7 +94,7 @@
 		[ HELPID <helpid> ] 		;
 		[ <invisible: INVISIBLE> ] ;
 	=>;
-	_DefineImageButton ( <"name">, <(parent)>, <col>, <row>, "", <{action}>, ;
+	_DefineImageButton ( <(name)>, <(parent)>, <col>, <row>, "", <{action}>, ;
                         <w>, <h>, <bitmap>, <tooltip>, <{gotfocus}>, <{lostfocus}>, ;
                         <.flat.>, <.notrans.>, <helpid>, <.invisible.>, <.notabstop.> )
 
@@ -123,7 +123,7 @@
 		[ <multiline: MULTILINE> ] ;
       [ <notrans: NOTRANSPARENT> ] ;
 	=>;
-	_DefineMixedButton ( <"name">, ;
+	_DefineMixedButton ( <(name)>, ;
 				<(parent)>, ;
 				<col>, ;
 				<row>, ;

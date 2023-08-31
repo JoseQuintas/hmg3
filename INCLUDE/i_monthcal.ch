@@ -83,7 +83,7 @@
     [ ON GETBOLDDAYS <getbolddays> ] ;
     [ HELPID <helpid> ]     ;
   =>;
-  _DefineMonthCal ( <"name"> , ;
+  _DefineMonthCal ( <(name)> , ;
                      <(parent)> , ;
                      <col> , ;
                      <row> , ;

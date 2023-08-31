@@ -77,7 +77,7 @@
       [ <multiline: MULTILINE> ]       ;
       [ <NoTrans: NOTRANSPARENT> ] ;
 	=>;
-	_BeginTab( <"name"> , <(parent)> , <row> , <col> , <w> , <h> , <value> , <f> , <s> , <tooltip> , <{change}> , <.buttons.> , <.flat.> , <.hottrack.> , <.vertical.>, <.notabstop.> ,<.bold.>, <.italic.>, <.underline.>, <.strikeout.> , <.multiline.> , <.NoTrans.> )
+	_BeginTab( <(name)> , <(parent)> , <row> , <col> , <w> , <h> , <value> , <f> , <s> , <tooltip> , <{change}> , <.buttons.> , <.flat.> , <.hottrack.> , <.vertical.>, <.notabstop.> ,<.bold.>, <.italic.>, <.underline.>, <.strikeout.> , <.multiline.> , <.NoTrans.> )
 
 
 * Alternate Syntax
@@ -105,7 +105,7 @@
       [ MULTILINE <multiline> ]       ;
       [ TRANSPARENT <Trans> ] ;
 	=>;
-	_BeginTab( <"name"> , <(parent)> , <row> , <col> , <w> , <h> , <value> , <f> , <s> , <tooltip> , <{change}> , <.buttons.> , <.flat.> , <.hottrack.> , <.vertical.>, !<.tabstop.> ,<.bold.>, <.italic.>, <.underline.>, <.strikeout.> , <.multiline.> , !<.Trans.>)
+	_BeginTab( <(name)> , <(parent)> , <row> , <col> , <w> , <h> , <value> , <f> , <s> , <tooltip> , <{change}> , <.buttons.> , <.flat.> , <.hottrack.> , <.vertical.>, !<.tabstop.> ,<.bold.>, <.italic.>, <.underline.>, <.strikeout.> , <.multiline.> , !<.Trans.>)
 
 
 

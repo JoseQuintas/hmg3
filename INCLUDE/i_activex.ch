@@ -59,4 +59,4 @@
 		HEIGHT <h>  ;
 		PROGID <progid>  ;
 =>;
-_DefineActivex(<"name">,<(parent)>,<row>,<col>,<w>,<h>,<progid>)
+_DefineActivex(<(name)>,<(parent)>,<row>,<col>,<w>,<h>,<progid>)

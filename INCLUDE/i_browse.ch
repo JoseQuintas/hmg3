@@ -108,7 +108,7 @@
 		[ <break: BREAK> ] 		;
 		[ HEADERIMAGES <headerimages> ] ;
 	=>;
-_DefineBrowse ( <"name"> , 	;
+_DefineBrowse ( <(name)> , 	;
 		<(parent)> , 	;
 		<col> ,		;
 		<row> ,		;
@@ -197,7 +197,7 @@ _DefineBrowse ( <"name"> , 	;
 		[ <break: BREAK> ] 		;
 		[ HEADERIMAGES <headerimages> ] ;
 	=>;
-_DefineBrowse ( <"name"> , 	;
+_DefineBrowse ( <(name)> , 	;
 		<(parent)> , 	;
 		 ,		;
 		 ,		;

@@ -79,7 +79,7 @@
 		[ <sort : SORT> ] ;
 		[ <dragitems : DRAGITEMS> ] ;
 	=>;
-	_DefineListBox ( <"name">, <(parent)>, <col>, <row>, <w>, <h>, <aRows>, ;
+	_DefineListBox ( <(name)>, <(parent)>, <col>, <row>, <w>, <h>, <aRows>, ;
                          <value>, <fontname>, <fontsize>, <tooltip>, <{change}>, ;
                          <{dblclick}>, <{gotfocus}>, <{lostfocus}>, .f., ;
                          <helpid>, <.invisible.>, <.notabstop.>, <.sort.> , ;
@@ -115,7 +115,7 @@
 		[ <sort : SORT> ] ;
 		[ <dragitems : DRAGITEMS> ] ;
 	=>;
-	_DefineListBox ( <"name">, <(parent)>, , , <w>, <h>, <aRows>, <value>, ;
+	_DefineListBox ( <(name)>, <(parent)>, , , <w>, <h>, <aRows>, <value>, ;
 		<fontname>, <fontsize>, <tooltip>, <{change}>, <{dblclick}>, ;
 		<{gotfocus}>, <{lostfocus}>, <.break.>, <helpid>, ;
 		<.invisible.>, <.notabstop.>, <.sort.> ,<.bold.>, ;

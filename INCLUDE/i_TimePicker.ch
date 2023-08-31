@@ -40,7 +40,7 @@
          [ <invisible: INVISIBLE> ] ;
          [ <notabstop: NOTABSTOP> ] ;
    => ;
-   _DefineTimePick ( <"name"> , ;
+   _DefineTimePick ( <(name)> , ;
                      <(parent)> , ;
                      <col> , ;
                      <row> , ;

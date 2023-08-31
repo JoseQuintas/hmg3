@@ -84,7 +84,7 @@
       [ ON CANCEL <OnCancel> ];
       [ <NoTrans : NOTRANSPARENT> ] ;
 	=>;
-	_DefineCombo ( <"name">, <(parent)>, <col>, <row>, <w>, <aRows> , <value>, ;
+	_DefineCombo ( <(name)>, <(parent)>, <col>, <row>, <w>, <aRows> , <value>, ;
                   <f>, <n>, <tooltip>, <{changeprocedure}>, <h>, ;
                   <{gotfocus}>, <{lostfocus}>, <{enter}>, <helpid>, ;
                   <.invisible.>, <.notabstop.>, <.sort.> ,<.bold.>, ;
@@ -128,7 +128,7 @@
       [ ON CANCEL <OnCancel> ];
       [ <NoTrans : NOTRANSPARENT> ] ;
 	=>;
-	_DefineCombo ( <"name">, <(parent)>, , , <w>, <aRows> , <value>, ;
+	_DefineCombo ( <(name)>, <(parent)>, , , <w>, <aRows> , <value>, ;
                   <f>, <n>, <tooltip>, <{changeprocedure}>, <h>, ;
                   <{gotfocus}>, <{lostfocus}>, <{enter}>, <helpid>, ;
                   <.invisible.>, <.notabstop.>, <.sort.> ,<.bold.>, <.italic.>, <.underline.>, <.strikeout.> ,;

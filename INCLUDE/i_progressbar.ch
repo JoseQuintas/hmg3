@@ -67,7 +67,7 @@
 		[ BACKCOLOR <backcolor> ]	;
 		[ FORECOLOR <barcolor> ]	;
 	=>;
-	_DefineProgressBar ( <"name">, <(parent)>, <col>, <row>, <w>, <h>, ;
+	_DefineProgressBar ( <(name)>, <(parent)>, <col>, <row>, <w>, <h>, ;
                         <lo>, <hi>, <tooltip>, <.vertical.>, <.smooth.>, ;
                         <helpid>, <.invisible.>, <v>, [ <backcolor> ], [ <barcolor> ])
 
@@ -77,7 +77,7 @@
 
 // Use this command when you do not know the amount of progress toward completion but wish to indicate that progress is being made.
 
-#xcommand SET PROGRESSBAR <name> OF <parent> ENABLE MARQUEE [ UPDATED <milliseconds> ] => SETPROGRESSBARMARQUEE (GetControlHandle(<"name">,<(parent)>), .T., <milliseconds>)
+#xcommand SET PROGRESSBAR <name> OF <parent> ENABLE MARQUEE [ UPDATED <milliseconds> ] => SETPROGRESSBARMARQUEE (GetControlHandle(<(name)>,<(parent)>), .T., <milliseconds>)
 
-#xcommand SET PROGRESSBAR <name> OF <parent> DISABLE MARQUEE                           => SETPROGRESSBARMARQUEE (GetControlHandle(<"name">,<(parent)>), .F., 0)
+#xcommand SET PROGRESSBAR <name> OF <parent> DISABLE MARQUEE                           => SETPROGRESSBARMARQUEE (GetControlHandle(<(name)>,<(parent)>), .F., 0)
 

@@ -76,6 +76,6 @@
 			[ READONLY <aReadOnly> ] ;
 			[ <horizontal: HORIZONTAL> ] ;
 	=>;
-	_DefineradioGroup ( <"name">, <(parent)>, <col>, <row>, <aOptions>, <value> , <fontname> , <fontsize>  , <tooltip>  , <{change}> , <width> , <spacing>  , <helpid>, <.invisible.>, <.notabstop.> ,<.bold.>, <.italic.>, <.underline.>, <.strikeout.> , <backcolor> , <fontcolor> , <.transparent.> , <aReadOnly> , <.horizontal.> )
+	_DefineradioGroup ( <(name)>, <(parent)>, <col>, <row>, <aOptions>, <value> , <fontname> , <fontsize>  , <tooltip>  , <{change}> , <width> , <spacing>  , <helpid>, <.invisible.>, <.notabstop.> ,<.bold.>, <.italic.>, <.underline.>, <.strikeout.> , <backcolor> , <fontcolor> , <.transparent.> , <aReadOnly> , <.horizontal.> )
 
 

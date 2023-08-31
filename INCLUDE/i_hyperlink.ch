@@ -77,7 +77,7 @@
 	[ <invisible: INVISIBLE> ] ;
  =>;
 _DefineLabel (      ;
-	<"name">,    ;
+	<(name)>,    ;
 	<(parent)>,    ;
 	<col>,     ;
 	<row>,     ;
@@ -104,5 +104,5 @@ _DefineLabel (      ;
 	<.autosize.> , ;
 	<.rightalign.> , ;
 	<.centeralign.> ) ;;
-	if ( <.handcursor.> , INITHYPERLINKCURSOR ( GetControlhandle ( <"name"> , if ( !empty(_HMG_SYSDATA \[ 223 \]) , _HMG_SYSDATA \[ 223 \] , <(parent)> ) ) ) , _DUMMY() )
+	if ( <.handcursor.> , INITHYPERLINKCURSOR ( GetControlhandle ( <(name)> , if ( !empty(_HMG_SYSDATA \[ 223 \]) , _HMG_SYSDATA \[ 223 \] , <(parent)> ) ) ) , _DUMMY() )
 

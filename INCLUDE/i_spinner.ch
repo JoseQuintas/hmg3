@@ -78,7 +78,7 @@
 		[ <readonly : READONLY> ] ;
 		[ INCREMENT <inc> ] ;
 	=>;
-	_DefineSpinner ( <"name">, <(parent)>, <col>, <row>, <w>, <value>, ;
+	_DefineSpinner ( <(name)>, <(parent)>, <col>, <row>, <w>, <value>, ;
                     <fontname>, <fontsize>, <rl>, <rh>, <tooltip>, <{change}>, ;
                     <{lostfocus}>, <{gotfocus}>, <h>, <helpid>, <.invisible.>, ;
                     <.notabstop.>, <.bold.>, <.italic.>, <.underline.>, <.strikeout.>, ;

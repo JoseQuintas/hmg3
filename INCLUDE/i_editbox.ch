@@ -81,7 +81,7 @@
 		[ <novscroll: NOVSCROLL> ] 	;
 		[ <nohscroll: NOHSCROLL> ] 	;
 	=>;
-	_DefineEditBox ( <"name">, <(parent)>, <col>, <row>, <w>, <h>, <value> ,<f>,<s> , <tooltip>  , <maxlength>  , <{gotfocus}>  , <{change}>  , <{lostfocus}>  , <.readonly.> , .f. , <helpid>, <.invisible.>, <.notabstop.> ,<.bold.>, <.italic.>, <.underline.>, <.strikeout.> , <"field"> , <backcolor> , <fontcolor> , <.novscroll.> , <.nohscroll.> , <disabledbackcolor> , <disabledfontcolor> )
+	_DefineEditBox ( <(name)>, <(parent)>, <col>, <row>, <w>, <h>, <value> ,<f>,<s> , <tooltip>  , <maxlength>  , <{gotfocus}>  , <{change}>  , <{lostfocus}>  , <.readonly.> , .f. , <helpid>, <.invisible.>, <.notabstop.> ,<.bold.>, <.italic.>, <.underline.>, <.strikeout.> , <"field"> , <backcolor> , <fontcolor> , <.novscroll.> , <.nohscroll.> , <disabledbackcolor> , <disabledfontcolor> )
 
 //SPLITBOX VERSION
 
@@ -114,6 +114,6 @@
 		[ <novscroll: NOVSCROLL> ] 	;
 		[ <nohscroll: NOHSCROLL> ] 	;
 	=>;
-	_DefineEditBox ( <"name">, <(parent)>, , , <w>, <h>, <value> ,<f>,<s> , <tooltip>  , <maxlength>  , <{gotfocus}>  , <{change}>  , <{lostfocus}>  , <.readonly.> , <.break.>  , <helpid>, <.invisible.>, <.notabstop.> ,<.bold.>, <.italic.>, <.underline.>, <.strikeout.> , <"field">  , <backcolor> , <fontcolor> , <.novscroll.> , <.nohscroll.> , <disabledbackcolor> , <disabledfontcolor> )
+	_DefineEditBox ( <(name)>, <(parent)>, , , <w>, <h>, <value> ,<f>,<s> , <tooltip>  , <maxlength>  , <{gotfocus}>  , <{change}>  , <{lostfocus}>  , <.readonly.> , <.break.>  , <helpid>, <.invisible.>, <.notabstop.> ,<.bold.>, <.italic.>, <.underline.>, <.strikeout.> , <"field">  , <backcolor> , <fontcolor> , <.novscroll.> , <.nohscroll.> , <disabledbackcolor> , <disabledfontcolor> )
 
 

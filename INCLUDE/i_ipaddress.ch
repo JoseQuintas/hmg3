@@ -73,7 +73,7 @@
 	[ <notabstop : NOTABSTOP> ] ;
 =>;
    _DefineIPAddress( ;
-      <"name"> , ;
+      <(name)> , ;
       <(parent)> , ;
       <col> , ;
       <row> , ;

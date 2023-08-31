@@ -68,5 +68,5 @@
    [ TRANSPARENTCOLOR <transparentcolor> ];
    [ TOOLTIP <tooltip> ];
  =>;
- _DefineImage ( <"name">, <(parent)>, <col>, <row>, <filename> ,<w>, <h>, <{action}> , <helpid> , <.invisible.> , <.stretch.> , <.transparent.> , <backgroundcolor> , <.adjustimage.> , <transparentcolor> , <tooltip> )
+ _DefineImage ( <(name)>, <(parent)>, <col>, <row>, <filename> ,<w>, <h>, <{action}> , <helpid> , <.invisible.> , <.stretch.> , <.transparent.> , <backgroundcolor> , <.adjustimage.> , <transparentcolor> , <tooltip> )
 

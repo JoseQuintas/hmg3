@@ -58,5 +58,5 @@
 		INTERVAL <interval> ;
 		ACTION <action> ;
 	=>;
-	_DefineTimer ( <"name"> , <(parent)> ,<interval> , <{action}> )
+	_DefineTimer ( <(name)> , <(parent)> ,<interval> , <{action}> )
 

@@ -202,7 +202,7 @@
       [ ON CHECKBOXCLICKED <OnCheckBoxClicked> ] ;
       [ ON INPLACEEDITEVENT <OnInplaceEditEvent> ];
 	=>;
-_DefineGrid ( <"name"> , 		;
+_DefineGrid ( <(name)> , 		;
 		<(parent)> , 		;
 		<col> ,			;
 		<row> ,			;
@@ -322,7 +322,7 @@ _DefineGrid ( <"name"> , 		;
       [ ON CHECKBOXCLICKED <OnCheckBoxClicked> ] ;
       [ ON INPLACEEDITEVENT <OnInplaceEditEvent> ];
 	=>;
-_DefineGrid ( <"name"> , 	;
+_DefineGrid ( <(name)> , 	;
 		<(parent)> , 	;
 		,		;
 		,		;
